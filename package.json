@@ -1,0 +1,39 @@
+{
+  "name": "iconsole",
+  "version": "1.0.0",
+  "description": "IConsole protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sz332/ddd-typescript.git"
+  },
+  "keywords": [
+    "iconsole",
+    "typescript"
+  ],
+  "author": "zsolt.sandor@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sz332/iconsole/issues"
+  },
+  "homepage": "https://github.com/sz332/iconsole#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.5.0",
+    "@types/uuid": "^3.4.6",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
